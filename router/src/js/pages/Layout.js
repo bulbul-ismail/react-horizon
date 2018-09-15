@@ -7,11 +7,13 @@ import Nav from "../components/layout/Nav";
 export default class Layout extends React.Component {
   render() {
     const { location } = this.props;
-    console.log(this.props);
+    const { history } = this.props;
+    //console.log(this.props);
+   // console.log(history.isActive("archives"));
     const containerStyle = {
       marginTop: "60px"
     };
-    console.log("layout");
+    //console.log("layout");
     return (
       <div>
 
@@ -20,7 +22,7 @@ export default class Layout extends React.Component {
         <div class="container" style={containerStyle}>
           <div class="row">
             <div class="col-lg-12">
-              <h1>KillerNews.net</h1>
+              <h1>ismail learning area</h1>
 
               {this.props.children}
 

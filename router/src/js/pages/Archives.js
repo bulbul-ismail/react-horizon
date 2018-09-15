@@ -9,6 +9,7 @@ export default class Archives extends React.Component {
     const { article } = params;
     const { date, filter } = query;
 
+    console.log(this.props)
     const Articles = [
       "Some Archive",
       "Some Other Archive",
