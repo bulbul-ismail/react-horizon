@@ -11,3 +11,4 @@
 * Javascript events
 * Router
 * Dynamic content,elements
+* Flux intro
